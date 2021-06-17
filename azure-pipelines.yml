@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default
+  vmImage: simpleWinVS
 
 steps:
 - script: echo Hello, world!
